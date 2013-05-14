@@ -2,8 +2,10 @@
  * Plugin responsável por mostrar configurações da imagem
  *
  * Usa o plugin Slider do Jquery UI
- * 
- * @type {Object}
+ *
+ * Git: https://github.com/cagartner/JqueryResizeImage
+ *
+ * @exemple http://carlosgartner.com.br/JqueryResizeImage/example.html
  * @author Carlos Augusto Gartner <carlos@we3online.com.br>
  */
 ;(function ( $, window, document, undefined ) {
