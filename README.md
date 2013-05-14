@@ -3,6 +3,10 @@ JqueryResizeImage
 
 Resize image's or elements with Jquery UI Slider
 
+Example
+=================
+[http://carlosgartner.com.br/JqueryResizeImage/example.html]
+
 Usage
 =================
 
