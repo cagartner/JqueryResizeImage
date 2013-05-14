@@ -7,13 +7,14 @@ Usage
 =================
 
 * Step 1 - Create two elements into html.
-
+  
   <div class="container">
       <div class="resize"></div>
   </div>
+  
 
 * Step 2 - Add a css style
-
+  
   <style>
     .container {
         width: 300px;
@@ -32,7 +33,9 @@ Usage
     }
   </style>
   
+  
 * Step 3 - Instance the plugin
+  
   $(function() {
       $('.resize').resizeImage({
           container: '.container',
@@ -41,5 +44,6 @@ Usage
           }
       });
   });
+  
   
 
