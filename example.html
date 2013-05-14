@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Jquery Resize</title>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <script src="jquery.resizeImage.min.js"></script>
+        <style>
+        .container {
+            width: 300px;
+            height: 300px;
+            background: #f2f2f2;
+            border: solid 1px #CCC;
+            position: relative;
+        }
+        .resize {
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background: red;
+        }
+        </style>
+        <script>
+            $(function() {
+                $('.resize').resizeImage({
+                    container: '.container',
+                    slider: {
+                        max: 300
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p>
+        </p>
+        <div class="container">
+            <div class="resize"></div>
+        </div>
+    </body>
+</html>
